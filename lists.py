@@ -9,3 +9,4 @@ def power2(x):
     return x**2
 print(list(filter(lambda x: x >= 5, map(power2,mylist3))))
 print([x for x in mylist3 if x >=5])
+
